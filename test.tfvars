@@ -1,15 +1,11 @@
 #------------------------------------------------------------------------------
 # Common
 #------------------------------------------------------------------------------
-env                           = "uat"  #dev, test, preprod, prod
-env_code                      = "ewu"
+env                           = "dev"  #dev, test, preprod, prod
+env_code                      = "dev"
 custom_tags = {
-    "environment"      = "UAT"
+    "environment"      = "dev"
     "region"           = "westeurope"
-    "ci"               = "NSCP Reporting"
-    "capability area"  = "AnalyticsAndReporting"
-    "platform"         = "SCM"
-    "business unit"	   = "Maersk_L&S"
 }
 
 sku_name = "P1v2"
